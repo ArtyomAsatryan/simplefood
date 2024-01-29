@@ -10,6 +10,10 @@ $(function () {
       headerTop.removeClass("header__inner--fixed");
     }
   });
+
+  $(".slider__inner").slick({
+    dots: true,
+  });
 });
 
 var mixer = mixitup(".dishes__items");
