@@ -1,0 +1,47 @@
+.delivery {
+  &__inner {
+    padding-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: $darkBlue-900;
+    @extend %rubik-500;
+    font-size: 66px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    max-width: 440px;
+    margin-bottom: 20px;
+  }
+
+  &__span {
+    color: $orange-900;
+  }
+
+  &__text {
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    font-size: 18px;
+    @extend %rubik-400;
+    padding: 12px 32px;
+    display: inline-block;
+    margin-right: 34px;
+  }
+
+  &__link {
+    text-decoration: underline;
+  }
+
+  &__image {
+    max-width: 560px;
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
